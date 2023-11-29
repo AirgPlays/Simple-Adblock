@@ -1,0 +1,30 @@
+{
+    "manifest_version": 2,
+    "name": "Simple adblocker",
+    "version": "1.0.0",
+    "author": "AirgPlays",
+    "description": "All In One Free and Open source to Stop pesky Ads and Keep Your Data Safe!",
+    "browser_action": {
+        "default_title": "Simple Adblocker",
+        "default_icon": {
+            "38": "360_F_512896637_uH4hSayZx4Eg5WVwxgNEMheylURlfrDB.png",
+            "19": "360_F_512896637_uH4hSayZx4Eg5WVwxgNEMheylURlfrDB.png"},
+        "default_popup": "popup.html"},
+    "icons": {
+        "16": "360_F_512896637_uH4hSayZx4Eg5WVwxgNEMheylURlfrDB.png",
+        "48": "360_F_512896637_uH4hSayZx4Eg5WVwxgNEMheylURlfrDB.png",
+        "128": "360_F_512896637_uH4hSayZx4Eg5WVwxgNEMheylURlfrDB.png"},
+    "permissions": [
+     "declarativeNetRequest"],
+    "declarative_net_request": {
+        "rule_resources": [
+            {
+                "id": "ruleset_1",
+                "enabled": true,
+                "path": "rules.json"
+            }
+
+
+        ]
+    }
+}
